@@ -60,7 +60,7 @@ app.get("/post/:postName" ,function(req,res){
               content:post.content
           });
       }
-      
+       
   });
 })
 
