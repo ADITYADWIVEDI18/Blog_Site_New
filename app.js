@@ -138,7 +138,6 @@ app.get("/posts/:postName",function( req, res){
         // {console.log("Match found !!");}
         // else
         // {console.log("Match not found");}
-
         if(storedTitle === requestedTitle)
          {
              res.render("post",{
